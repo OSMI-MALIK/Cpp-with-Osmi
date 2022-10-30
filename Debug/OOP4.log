@@ -1,0 +1,22 @@
+﻿Build started 10/22/2022 2:43:31 AM.
+     1>Project "C:\Users\Max\documents\visual studio 2010\Projects\OOP4\OOP4\OOP4.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\OOP4.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Class.cpp
+         Class.cpp
+     1>c:\users\max\documents\visual studio 2010\projects\oop4\oop4\class.cpp(134): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Max\documents\visual studio 2010\Projects\OOP4\Debug\OOP4.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OOP4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Max\documents\visual studio 2010\Projects\OOP4\Debug\OOP4.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Max\documents\visual studio 2010\Projects\OOP4\Debug\OOP4.lib" /MACHINE:X86 Debug\Class.obj
+         LINK : C:\Users\Max\documents\visual studio 2010\Projects\OOP4\Debug\OOP4.exe not found or not built by the last incremental link; performing full link
+         OOP4.vcxproj -> C:\Users\Max\documents\visual studio 2010\Projects\OOP4\Debug\OOP4.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Max\documents\visual studio 2010\Projects\OOP4\Debug\OOP4.exe;#1" /manifest Debug\OOP4.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\OOP4.unsuccessfulbuild".
+         Touching "Debug\OOP4.lastbuildstate".
+     1>Done Building Project "C:\Users\Max\documents\visual studio 2010\Projects\OOP4\OOP4\OOP4.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.37
